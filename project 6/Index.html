@@ -1,0 +1,331 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Site</title>
+<link rel="stylesheet" type="text/css" href="vendore/fontawesome/css/all.min.css" />
+
+<link rel="stylesheet" type="text/css" href="vendore/OwlCarousel/dist/assets/owl.carousel.min.css" />
+<link rel="stylesheet" type="text/css" href="vendore/OwlCarousel/dist/assets/owl.theme.default.min.css" />
+<script type="text/javascript" src="js/jquery-3.0.0.js"></script>
+<script type="text/javascript" src="vendore/OwlCarousel/dist/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/customs.js"></script>
+</head>
+<style>
+*{
+  padding: 0;
+  margin: 0;
+}
+p{
+  margin-bottom: 20px;
+}
+img{
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+body,
+html{
+  height:100%;
+}
+body{
+  font-size: 14px;
+  color: #333;
+  font-family: 'Arial';
+}
+.page{
+  padding-bottom: 116px;
+}
+.for_page{
+  position: relative;
+  min-height: 100%;
+}
+.header{
+background:#ccc;
+padding-top: 20px;
+}
+.container{
+  width: 1170px;
+  margin: 0  auto;
+}
+.logo{
+  width: 186px;
+  display: block;
+  float: left;
+}
+.slogon{
+  font-size: 18px;
+  color: #061979;
+  font-family: 'Arial';
+  width: 400px;
+  float: left;
+  text-align: center;
+}
+.header-contacts{
+  float: right ;
+}
+.clear{
+  clear: both;
+}
+.header-contacts a{
+display: block;
+text-decoration: none;
+line-height: 21px;
+font-weight: bold;
+color: #1859d2;
+}
+.header-contacts a:hover{
+  text-decoration:underline;
+}
+.nav{
+  background: #031A53;
+  margin-top: 15px;
+}
+.nav ul.menu{
+  list-style: none;
+}
+.nav ul.menu li{
+  display: inline-block;
+  position: relative;
+}
+.nav ul.menu li a{
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 20px;
+  display: block;
+}
+.nav ul.menu li a:hover{
+  background: #335cd0;
+}
+.nav ul.menu li ul.sub-menu{
+  list-style: none;
+  position: absolute;
+  background: #356f62;
+  width: 205px;
+  padding: 20px 0;
+  left: 0;
+  top: 47px;
+  display: none;
+}
+.nav ul.menu li:nth-child(4):hover ul.sub-menu{
+  display: block;
+}
+.nav ul.menu li ul.sub-menu li{
+  display: block;
+}
+.nav ul.menu li ul.sub-menu li a{
+  padding: 5px 20px;
+}
+
+
+.owl-carousel{
+  overflow: hidden;
+}
+
+.slide1{
+background: url("img/slide1.jpeg") no-repeat;
+background-size: cover;
+padding: 200px 0;
+width: 100%;
+}
+.slide2{
+  background: url("img/slide2.jpeg") no-repeat;
+background-size: cover;
+padding: 200px 0;
+width: 100%;
+}
+.slide3{
+  background: url("img/slide3.jpeg") no-repeat;
+background-size: cover;
+padding: 200px 0;
+width: 100%;
+}
+.parent_text_slide{
+background: rgb(250, 250, 250, 0.6);
+width: 500px;
+padding: 20px;
+}
+.parent_text_slide h2{
+font-size: 50px;
+margin-bottom: 20px;
+}
+.parent_text_slide p{
+font-size: 20px;
+}
+#slider-baner .owl-nav .owl-prev{
+position: absolute;
+left: 20px;
+bottom: 50%;
+}
+#slider-baner .owl-nav .owl-next{
+position: absolute;
+right: 20px;
+bottom: 50%;
+}
+#slider-baner .owl-nav .owl-next,
+#slider-baner .owl-nav .owl-prev i{
+font-size: 40px;
+color: #5d0f05;f;
+}
+#slider-baner .owl-nav .owl-prev:hover,
+#slider-baner .owl-nav .owl-next:checked{
+  opacity: 0.6;
+}
+.sidebar{
+  width: 400px;
+  float: left;
+  /*background: #0a6f78;*/
+  box-sizing: border-box;
+
+}
+.home_main{
+  margin-top: 30px;
+}
+
+.aside{
+  width: 770px;
+  float: left;
+  box-sizing: border-box;
+  padding-left: 60px;
+}
+.sidebar ul.sidebar_menu{
+  list-style: none;
+  text-align: center;
+}
+.sidebar ul.sidebar_menu li{
+width: 360px;
+padding: 20px;
+border-radius: 40px;
+border: solid 2px #440622;
+}
+.sidebar ul.sidebar_menu li a{
+color: #faeaf1;
+text-decoration: none;
+display: block;
+font-weight: bold;
+font-size: 20px;
+font-style: italic;
+
+}
+.sidebar ul.sidebar_menu li.item-child{
+background: #7b091c;
+margin: 10px;
+}
+.sidebar ul.sidebar_menu li.item-child:hover{
+background: #df6262;
+}
+.footer{
+  background:#151962;
+  width: 100%;
+  padding: 50px 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+
+</style>
+<body>
+ <div class="for_page">
+  <div class="page">
+    <header class="header">
+      <div class="container">
+        <a href="/" class="logo"><img src="img/photo.png" alt="Main Academy" /></a>
+        <div class="slogon">Система подготовки сертифицированных специалистов для IT-компаний</div>
+        <div class="header-contacts">
+          <a href="tel:+380964536622">(096) 453 66 22</a>
+          <a href="tel:+380935623371">(093) 562 33 71</a>
+          <a href="mailto:mainacademy@info">mainacademy@info</a>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <nav class="nav">
+        <div class="container">
+        <ul class="menu">
+          <li class="item-menu active"><a href="/" class="link-item">Главная</a></li>
+          <li class="item-menu"><a href="#" class="link-item">Карьера</a></li>
+          <li class="item-menu"><a href="#" class="link-item">Тесты</a></li>
+          <li class="item-menu"><a href="#" class="link-item">Блог</a>
+          <ul class="sub-menu">
+            <li class="item-menu"><a href="#" class="link-item">Наш блог</a></li>
+            <li class="item-menu"><a href="#" class="link-item">Полезная информация</a></li>
+            <li class="item-menu"><a href="#" class="link-item">Информация о курсах</a></li>
+          </ul>
+        </li>
+          <li class="item-menu"><a href="#" class="link-item">Контакты</a></li>
+        </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="slider">
+      <div class="owl-carousel" id="slider-baner">
+          <div class="item slide1">
+            <div class="container">
+              <div class="parent_text_slide">
+                      <h2>Lorem ipsum Head</h2>
+                      <p>Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar</p>
+              </div>
+            </div>
+          </div>
+          <div class="item slide2">
+            <div class="container">
+              <div class="parent_text_slide">
+                      <h2>Lorem ipsum Head</h2>
+                      <p>Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar</p>
+              </div>
+            </div>
+          </div>
+          <div class="item slide3">
+            <div class="container">
+              <div class="parent_text_slide">
+                      <h2>Lorem ipsum Head</h2>
+                      <p>Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar Lorem ipsum dolar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="home_main">
+      <div class="container">
+        <sidebar class="sidebar">
+          <ul class="sidebar_menu">
+            <li class="item-child"><a href="#" class="child-link">Главная</a></li>
+            <li class="item-child"><a href="#" class="child-link">О Нас</a></li>
+            <li class="item-child"><a href="#" class="child-link">Курсы</a></li>
+            <li class="item-child"><a href="#" class="child-link">Тесты</a></li>
+            <li class="item-child"><a href="#" class="child-link">Блог</a></li>
+            <li class="item-child"><a href="#" class="child-link">Контакты</a></li>
+          </ul>
+        </sidebar>
+        <aside class="aside">
+          <p>Допустим, вы хотите арендовать квартиру: у вас есть компьютер с выходом в Интернет, вы знаете адрес другого, более мощного компьютера, который хранит огромное множество объявлений. Если представить, что привычных сайтов не существует и вы не можете, например, посмотреть объявления на карте, отфильтровать ненужные, заполнив удобную форму, вам придётся самим составлять сетевой запрос и разбираться в том, как и куда отправлять данные.</p>
+
+          <p>К счастью, инженеры придумали браузеры, а веб-технологии развиваются, и вам достаточно лишь воспользоваться удобным интерфейсом, который предоставляют разработчики разных компаний. Осталось сделать пару кликов, и нужная информация найдена.</p>
+
+<p>Фронтенд-разработчиками называют программистов, которые отвечают за создание такой внешней стороны (англ. front end) веб-сайтов. Это клиентская часть сайта, с которой пользователь непосредственно взаимодействует на своем компьютере или телефоне (клиенте).</p>
+
+<p>Многим известно, что сайты включают в себя разметку и стили, которые необходимы, чтобы обеспечить понятную структуру страницы и дизайн, однако фронтенд-разработка этим не ограничивается. Большинство сайтов, которыми мы постоянно пользуемся, это полноценные веб-приложения: почта, онлайн-банк, онлайн-кинотеатры, редакторы фото, заметки. Чтобы такие приложения работали, фронтенд-разработчики добавляют программный код, который выполняется в браузере, реализует нужную функциональность и, при необходимости, взаимодействует с сервером, динамически получая нужную информацию.</p>
+
+<p>создает пользовательский интерфейс, добавляет разметку и стили страниц сайта;
+программирует логику, которая выполняется на клиентском устройстве, разрабатывает архитектуру клиентского приложения;
+оптимизирует производительность фронтенда, чтобы проект быстро загружался, поисковики поднимали сайт в рейтинге выдачи, а пользователи не чувствовали задержки при навигации и взаимодействии с интерфейсом;
+тестирует разработанную функциональность и пишет автоматические тесты, чтобы обеспечить высокое качество и не допустить ошибок при изменении кода;
+настраивает сборку проекта, что позволяет автоматизировать дополнительную обработку кода и файлов перед запуском приложения;
+выполняет развёртывание приложения: выкладывает на сервер, чтобы приложение было доступно в сети и пользователи могли им воспользоваться;
+следит за возникающими ошибками с помощью средств для мониторинга и вовремя их устраняет</p>
+        </aside>
+        <div class="clear"></div>
+      </div>
+    </section>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        Text
+      
+      </div>
+      </footer>
+ </div>
+</body>
+</html>

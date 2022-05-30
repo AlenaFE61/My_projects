@@ -1,0 +1,138 @@
+@charset "ULT-8";
+@media (max-width: 2000px) {
+.bg_review_carousel{
+  height: 500px;
+}
+}
+@media (max-width: 1199px) {
+  .review-carousel-owl {
+    padding: 74px 82px;
+    width: 100%;
+}
+  .galery .fancybox{
+    width: 33.3333333%;
+  }
+}
+@media (max-width: 991px) {
+  .bg-review-carousel {
+    display: none;
+}
+.review_carousel_owl {
+  width: 100%;
+}
+.team-box {
+    margin-bottom: 40px;
+}
+  .logo{
+    display: block;
+    margin-bottom: 20px;
+  }
+  .logo img{
+    display: block;
+    margin: 0 auto;
+  }
+  .baner {
+    top: -157px;
+    padding-top: 180px;
+    padding-bottom: 100px;
+  }
+  .wrapp_baner h1 {
+    font-size: 46px;
+    line-height: 52px;
+  }
+  .text_baner {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .nav-menu ul.menu {
+    justify-content: center;
+  }
+  .galery .fancybox{
+    width: 50%;
+  }
+}
+@media (max-width: 767px){
+  .team-box {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.img-team-box img{
+    display: block;
+    margin: 0 auto;
+}
+.social-team {
+justify-content: center;
+}
+.team {
+padding: 50px 0;
+}
+  .nav-menu ul.menu li a {
+    padding-left: 25px;
+  }
+  .wrapp_baner h1 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+  .text_baner {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .box-servise {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .socials {
+    padding-top: 30px;
+   padding-bottom: 60px;
+    }
+    .socials-box h2{
+      padding-top: 10px;
+    }
+    .left-box-text{
+      padding: 5px;
+    }
+    .socials-box-icons a{
+      color: #fff;
+      width: 30px;
+      height: 30px;
+    }
+}
+@media (max-width: 600px) {
+  
+}
+@media (max-width: 500px){
+  .nav-menu ul.menu li a{
+  padding-left: 8px;
+  font-size: 8px;
+  }
+  .separator{
+    padding-bottom: 15px;
+  }
+  .galery .fancybox{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .review_carousel_owl {
+    padding: 50px 20px;
+  }
+}
+@media (max-width: 470px){
+  .nav-menu ul.menu li a{
+    padding-left: 8px;
+    font-size: 8px;
+    }
+.wrapp_baner h1{
+    font-size: 25px;
+    line-height: 31px;
+}
+.team-text{
+    margin-bottom: 20px;
+}
+.team {
+padding: 50px 0;
+}

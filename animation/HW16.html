@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>sprite animation</title>
+</head>
+
+
+  <style>
+ 
+  .spriteAnime{
+    background-image: url("img/img.png");
+    width: calc(672px/6);
+    height: 156px;
+    animation-name: humen;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(6);
+  }
+  @keyframes humen{
+    from{
+      background-position: 0px;
+    }
+    to{
+      background-position: -672px;
+    }
+  }
+</style>
+<body>
+
+  <div class="spriteAnime"></div>
+</body>
+</html>

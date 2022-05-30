@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/* CSS Document */
+@media (min-width: 1200px){
+.for_page .container {
+    max-width: 1030px;
+}
+}
+
+@media(max-width: 1199px){
+	.nav-menu ul.sub-menu li a button {
+    font-size: 14px;
+	}
+	.info-cont .telephone {
+    font-size: 19px;
+	}
+}
+@media(max-width: 991px){
+	.nav-menu{
+		display: none;
+		position: fixed;
+		background: #fff;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		padding: 40px;
+	}
+	.nav-menu ul.sub-menu li a button:hover {
+    color:aqua;
+}
+	.nav-menu ul.sub-menu li a button {
+    font-size: 16px;
+    color: #000;
+		    padding-bottom: 6px;
+}
+	.nav-menu ul.sub-menu {
+    display: block;
+	}
+	.responsive-nav {
+        display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+	.responsive-nav-name{
+		font-family: 'Conv_HelveticaNeueCyr-Roman';
+		font-size: 24px;
+		color: #fff;
+	}
+	.icon-humburher i{
+		color: #fff;
+		font-size: 24px;
+		transition: 0.7;
+		cursor: pointer;
+	}
+	.icon-humburher i:hover{
+		color: #4FB1E5;
+	}
+	.closed{
+		display: block;
+		position: absolute;
+    right: 33px;
+    top: 20px;
+		
+	}
+	.closed i{
+		cursor: pointer;
+		font-size: 24px;
+		transition: 0.7s;
+	}
+	.closed i:hover{
+		color: aqua;
+	}
+  .block2 h1 {
+    font-size: 26px;
+    padding: 10px;
+  }
+  .header2 h2 {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .about h3 {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+	.block6 p {
+    width: 300px;
+}
+@media(max-width: 767px){
+  .block2 h1{
+    font-size: 20px;
+  }
+  .parent_about2{
+    flex-wrap: wrap;
+  }
+  .about3{
+    flex-wrap: wrap;
+  }
+  li {
+    font-size: 10px;
+}
+.menu2 li img{
+  width: 30px;
+  padding: 5px 5px 5px 5px;
+  }
+  .menu-socials ul.about-menu-socials li a button:focus, 
+  .menu-socials ul.about-menu-socials li a button {
+    font-size: 16px;
+    max-width: 500px;
+  }
+  .text-footer p {
+    font-size: 12px;
+  }
+@media(max-width: 600px){
+	.consumer {
+    flex-wrap: wrap;
+  }
+  .consumer_foto img{
+    position: center;
+  }
+}
+@media(max-width: 500px){
+	
+}
+@media(max-width: 470px){
+	
+}
+@media(max-width: 400px){
+	
+}
+
